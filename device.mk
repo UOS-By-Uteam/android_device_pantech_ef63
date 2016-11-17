@@ -107,6 +107,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshims_wvm
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.codecremote=false
 
