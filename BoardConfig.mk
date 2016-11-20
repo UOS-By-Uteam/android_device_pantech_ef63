@@ -186,8 +186,6 @@ TARGET_NO_RPC := true
 # Sensor Compat
 BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
 
-BLOCK_BASED_OTA := false
-
 # Wifi
 BOARD_HAS_QCOM_WLAN              := true
 BOARD_HAS_QCOM_WLAN_SDK          := true
