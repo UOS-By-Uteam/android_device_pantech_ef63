@@ -6,7 +6,7 @@ CHECK_SS_SUM=275
 if grep -q "IM-A910S" /dev/block/mmcblk0p10 ; then
 
 	if [ "$CHECKSUM" = "$CHECK_SS_SUM" ] ; then 
-	mv /system/etc/firmware_ef63S/* /system/etc/firmware/
+	mv /system/etc/firmware_ef63s/* /system/etc/firmware/
 	fi
 
 elif grep -q "IM-A910K" /dev/block/mmcblk0p10 ; then
