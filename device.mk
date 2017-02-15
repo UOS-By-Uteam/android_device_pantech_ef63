@@ -115,10 +115,6 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     rmnetcli
 
-# Doze
-PRODUCT_PACKAGES += \
-    VegaDoze
-
 # Graphics
 PRODUCT_PACKAGES += \
     copybit.msm8974 \

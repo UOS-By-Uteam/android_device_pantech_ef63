@@ -24,7 +24,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Call the proprietary setup
 $(call inherit-product-if-exists, vendor/pantech/ef63l/ef63l-vendor.mk)
 
-PRODUCT_NAME := cm_ef63l
+PRODUCT_NAME := uos_ef63l
 PRODUCT_DEVICE := ef63l
 PRODUCT_MANUFACTURER := PANTECH
 PRODUCT_MODEL := IM-A910L
