@@ -23,6 +23,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Call the proprietary setup
 $(call inherit-product-if-exists, vendor/pantech/ef63/ef63-vendor.mk)
+$(call inherit-product-if-exists, vendor/pantech/msm8974-common/msm8974-common-vendor.mk)
 
 PRODUCT_NAME := uos_ef63
 PRODUCT_DEVICE := ef63
