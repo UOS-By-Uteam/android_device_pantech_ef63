@@ -15,7 +15,7 @@
 #
 
 BOARD_VENDOR := pantech
-PLATFORM_PATH := device/pantech/ef63l
+PLATFORM_PATH := device/pantech/ef63
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8974
@@ -137,8 +137,8 @@ NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_ef63l
-TARGET_RECOVERY_DEVICE_MODULES := libinit_ef63l
+TARGET_INIT_VENDOR_LIB := libinit_ef63
+TARGET_RECOVERY_DEVICE_MODULES := libinit_ef63
 TARGET_UNIFIED_DEVICE := true
 
 # Keymaster
@@ -207,5 +207,5 @@ TARGET_USERIMAGES_USE_EXT4 := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
--include vendor/pantech/ef63l/BoardConfigVendor.mk
+-include vendor/pantech/ef63/BoardConfigVendor.mk
 
